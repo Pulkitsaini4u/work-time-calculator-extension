@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "8-Hour Completion Time Calculator",
+    "version": "1.0",
+    "description": "Calculates the time when 8 hours of work will be completed based on the input hours worked.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": []
+  }
+  

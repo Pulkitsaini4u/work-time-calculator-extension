@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workday Calculator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Workday Calculator</h1>
+
+  <label for="hoursWorked">Hours Worked (HH:MM):</label>
+  <input type="text" id="hoursWorked" placeholder="e.g., 05:48" required>
+
+  <label for="currentTime">Current Time:</label>
+  <input type="time" id="currentTime" required>
+
+  <label for="workdayHours">Total Workday Hours:</label>
+  <input type="number" id="workdayHours" value="8" min="1" required>
+
+  <button id="calculateButton">Calculate</button>
+
+  <h2 id="result"></h2>
+
+  <script src="popup.js"></script>
+</body>
+</html>
